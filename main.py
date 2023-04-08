@@ -3,6 +3,10 @@ from fastapi import FastAPI, HTTPException
 app = FastAPI()
 todos = []
 
+@app.get("/")
+async def root():
+    return {"message": "Welcome to the Todo List Plugin!"}
+
 @app.post("/todos")
 async def add_todo(item: str):
     todos.append(item)
