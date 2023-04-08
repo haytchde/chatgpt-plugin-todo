@@ -8,6 +8,10 @@ description = "A simple todo list plugin using Quart"
 authors = [{name = "Your Name", email = "your.email@example.com"}]
 readme = "README.md"
 
+[project.dependencies]
+quart = "^0.15.1"
+quart-cors = "^0.3.0"
+
 [project.license]
 text = "MIT"
 
