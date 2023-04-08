@@ -6,8 +6,10 @@ name = "quart-todo-list"
 version = "0.1.0"
 description = "A simple todo list plugin using Quart"
 authors = [{name = "Your Name", email = "your.email@example.com"}]
-license = "MIT"
 readme = "README.md"
+
+[project.license]
+text = "MIT"
 
 [project.urls]
 homepage = "https://example.com"
